@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CodeHubX – All Coding Platforms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🚀 CodeHubX</h1>
+    <p>All Coding Platforms in One Place (100+)</p>
+</header>
+
+<div class="controls">
+    <input type="text" id="searchBox" placeholder="🔍 Search platform..." onkeyup="searchPlatform()">
+
+    <select id="categoryFilter" onchange="filterCategory()">
+        <option value="all">All Categories</option>
+        <option value="IDE">IDE</option>
+        <option value="Compiler">Compiler</option>
+        <option value="Framework">Framework</option>
+        <option value="DevOps">DevOps</option>
+        <option value="Database">Database</option>
+        <option value="Testing">Testing</option>
+        <option value="Design">Design</option>
+    </select>
+</div>
+
+<div id="platformContainer" class="grid"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
