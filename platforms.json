@@ -1,0 +1,39 @@
+{
+  "platforms": [
+    {
+      "id": "vscode",
+      "name": "Visual Studio Code",
+      "category": "IDE",
+      "description": "Free source-code editor by Microsoft.",
+      "languages": ["C", "C++", "Java", "Python", "JavaScript"],
+      "officialWebsite": "https://code.visualstudio.com/",
+      "downloadLink": "https://code.visualstudio.com/download",
+      "onlineCompiler": null,
+      "guide": "VS Code is used for coding with extensions for multiple languages.",
+      "os": ["Windows", "Linux", "Mac"]
+    },
+    {
+      "id": "pycharm",
+      "name": "PyCharm",
+      "category": "IDE",
+      "description": "Python IDE developed by JetBrains.",
+      "languages": ["Python"],
+      "officialWebsite": "https://www.jetbrains.com/pycharm/",
+      "downloadLink": "https://www.jetbrains.com/pycharm/download/",
+      "onlineCompiler": null,
+      "guide": "PyCharm is mainly used for Python development.",
+      "os": ["Windows", "Linux", "Mac"]
+    },
+    {
+      "id": "replit",
+      "name": "Replit",
+      "category": "Online Compiler",
+      "description": "Online coding and compiler platform.",
+      "languages": ["Python", "Java", "C", "C++", "JavaScript"],
+      "officialWebsite": "https://replit.com/",
+      "onlineCompiler": "https://replit.com/",
+      "guide": "Replit allows coding directly in the browser.",
+      "os": ["Web"]
+    }
+  ]
+}
